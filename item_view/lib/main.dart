@@ -9,6 +9,7 @@ class MeuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,  
       title: 'Lista de Itens',
       theme: ThemeData(
         primarySwatch: Colors.blue,
